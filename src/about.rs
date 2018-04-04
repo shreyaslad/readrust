@@ -1,3 +1,3 @@
 pub fn about() {
-    println!("\n\nThe about section for rust");
+    println!("\n\nThe about section for rust\n\n");
 }
