@@ -1,0 +1,11 @@
+/Users/shreyaslad/mathcli/target/release/deps/libucd_util-2fa6be8f31594200.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/Users/shreyaslad/mathcli/target/release/deps/ucd_util-2fa6be8f31594200.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs:

@@ -1,0 +1,10 @@
+/Users/shreyaslad/mathcli/target/release/deps/libserde_derive_internals-142b5af07722c335.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ast.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/attr.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ctxt.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/case.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/check.rs
+
+/Users/shreyaslad/mathcli/target/release/deps/serde_derive_internals-142b5af07722c335.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ast.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/attr.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ctxt.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/case.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/check.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ast.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/attr.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/ctxt.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/case.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.23.0/src/check.rs:

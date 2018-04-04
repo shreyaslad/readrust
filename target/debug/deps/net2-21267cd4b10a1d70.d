@@ -1,0 +1,13 @@
+/Users/shreyaslad/mathcli/target/debug/deps/libnet2-21267cd4b10a1d70.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/tcp.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/udp.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/socket.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/ext.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/utils.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/mod.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/impls.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/unix.rs
+
+/Users/shreyaslad/mathcli/target/debug/deps/net2-21267cd4b10a1d70.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/tcp.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/udp.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/socket.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/ext.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/utils.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/mod.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/impls.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/unix.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/tcp.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/udp.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/socket.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/ext.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/utils.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/mod.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/sys/unix/impls.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/net2-0.2.32/src/unix.rs:

@@ -1,0 +1,13 @@
+/Users/shreyaslad/mathcli/target/debug/deps/liburl-a122189fe3cb5183.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/Users/shreyaslad/mathcli/target/debug/deps/url-a122189fe3cb5183.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs:

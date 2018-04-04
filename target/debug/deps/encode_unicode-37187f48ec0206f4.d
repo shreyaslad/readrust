@@ -1,0 +1,11 @@
+/Users/shreyaslad/mathcli/target/debug/deps/libencode_unicode-37187f48ec0206f4.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/errors.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/traits.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_char.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_iterator.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_char.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_iterator.rs
+
+/Users/shreyaslad/mathcli/target/debug/deps/encode_unicode-37187f48ec0206f4.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/errors.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/traits.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_char.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_iterator.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_char.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_iterator.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/errors.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/traits.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_char.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf8_iterator.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_char.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.3.1/src/utf16_iterator.rs:

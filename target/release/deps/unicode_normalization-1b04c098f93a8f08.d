@@ -1,0 +1,9 @@
+/Users/shreyaslad/mathcli/target/release/deps/libunicode_normalization-1b04c098f93a8f08.rlib: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs
+
+/Users/shreyaslad/mathcli/target/release/deps/unicode_normalization-1b04c098f93a8f08.d: /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs /Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs
+
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs:
+/Users/shreyaslad/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs:

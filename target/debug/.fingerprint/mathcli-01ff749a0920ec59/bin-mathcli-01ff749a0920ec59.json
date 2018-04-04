@@ -1,0 +1,1 @@
+{"rustc":18204830484536976040,"features":"[]","target":18355780294139132446,"profile":15791869194194351859,"path":1036222786711178230,"deps":[["clap v2.31.2",6059038912895917385],["console v0.6.1",15752195108824769313]],"local":[{"MtimeBased":[[1522738076,911141528],".fingerprint/mathcli-01ff749a0920ec59/dep-bin-mathcli-01ff749a0920ec59"]}],"rustflags":[],"epoch":"Epoch2015"}
