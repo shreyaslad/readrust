@@ -5,3 +5,6 @@ A simple command line tool written in Rust to get articles from https://readrust
 **Name:** ReadRust
 **Version:** 1.0.0
 **Author:** PenetratingShot
+
+# Usage
+Coming soon :/
