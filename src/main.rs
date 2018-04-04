@@ -78,7 +78,7 @@ use clap::App;
 
 fn main() {
     let app = App::new("readrust")
-        .version("0.1")
+        .version("1.1.0")
         .author("Shreyas Lad <shadowtemplates@gmail.com>")
         .about("Reads readrust.net")
         .args_from_usage("-n, --number=[NUMBER] 'Only print the NUMBER most recent posts'
