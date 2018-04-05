@@ -126,7 +126,7 @@ fn main() {
         } else {
             print_feed_table(iter)
         }*/
-        println!("No valid aurguments")
+        println!("No valid aurguments");
     }
 
 }
