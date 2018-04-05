@@ -5,8 +5,12 @@ A simple command line tool written in Rust to get articles from https://readrust
 
 ## General Info
 **Name:** ReadRust
-**Version:** 1.0.0
+**Version:** 1.1.0
 **Author:** PenetratingShot
+
+## Things it can do
+This tool gathers information from https://readrust.net, and with the correct usage, prints out the latest blogs on the Rust2018 or DevOps topic.
+
 
 # Usage
 Coming soon :/

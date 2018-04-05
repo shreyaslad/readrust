@@ -78,14 +78,15 @@ use clap::App;
 
 fn main() {
     let app = App::new("readrust")
-        .version("1.1.0")
+        .version("1.1.1")
         .author("Shreyas Lad <shadowtemplates@gmail.com>")
         .about("Reads readrust.net")
         .args_from_usage("-n, --number=[NUMBER] 'Only print the NUMBER most recent posts'
                           -c, --count           'Show the count of posts'
                           -a, --about           'About this project'
                           -d, --devops          'Feed from Devops'
-                          -n2, --number2        'Prints the number of devops posts'");
+                          -r, --rust2018        'Feed from Rust2018'
+                          -ntwo, --numbertwo        'Prints the number of devops posts'");
     
         let matches = app.get_matches();
 
@@ -101,13 +102,13 @@ fn main() {
     } else if matches.is_present("devops") {
         let iter = feed2.items.iter();
 
-        if let Some(string) = matches.value_of("number2") {
+        if let Some(string) = matches.value_of("numbertwo") {
             let number = string.parse().unwrap();
             print_feed_table2(iter.take(number))
         } else {
             print_feed_table2(iter)
         }
-    } else {
+    } else if matches.is_present("rust2018") {
         let iter = feed.items.iter();
 
         if let Some(string) = matches.value_of("number") {
@@ -116,6 +117,16 @@ fn main() {
         } else {
             print_feed_table(iter)
         }
+    } else {
+        /*let iter = feed.items.iter();
+
+        if let Some(string) = matches.value_of("number") {
+            let number = string.parse().unwrap();
+            print_feed_table(iter.take(number))
+        } else {
+            print_feed_table(iter)
+        }*/
+        println!("No valid aurguments")
     }
 
 }
