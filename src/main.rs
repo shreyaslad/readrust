@@ -10,6 +10,7 @@ extern crate serde_json;
 #[macro_use]
 extern crate prettytable;
 
+// Table for Rust2018
 fn print_feed_table<'feed, I: Iterator<Item = &'feed FeedItem>>(items: I) {
     let mut table = prettytable::Table::new();
 
@@ -28,6 +29,7 @@ fn print_feed_table<'feed, I: Iterator<Item = &'feed FeedItem>>(items: I) {
     table.printstd();
 }
 
+// Table for DevOps
 fn print_feed_table2<'feed2, I: Iterator<Item = &'feed2 FeedItem>>(items: I) {
     let mut table = prettytable::Table::new();
 
@@ -160,9 +162,9 @@ fn get_feed() -> Feed {
 }
 
 fn print_count1(feed: &Feed) {
-    println!("Number of posts for Rust2018: {}", feed.items.len());
+    println!("Posts for Rust2018: {}", feed.items.len());
 }
 
 fn print_count2(feed2: &Feed) {
-    println!("Number of posts for DevOps and Deployment: {}", feed2.items.len());
+    println!("Posts for DevOps and Deployment: {}", feed2.items.len());
 }
