@@ -1,5 +1,5 @@
 extern crate clap;
-extern create colored;
+extern crate colored;
 extern crate reqwest;
 extern crate serde;
 mod about;
