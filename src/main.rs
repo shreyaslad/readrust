@@ -31,7 +31,7 @@ fn print_feed_table<'feed, I: Iterator<Item = &'feed FeedItem>>(items: I) {
 fn print_feed_table2<'feed2, I: Iterator<Item = &'feed2 FeedItem>>(items: I) {
     let mut table = prettytable::Table::new();
 
-    table.add_row(row!["Title", "Author", "Link"]);
+    table.add_row(row!["Title".red().bold(), "Author".red().bold(), "Link".red().bold()]);
 
     for item in items {
         let title = if item.title.len() >= 50 {
@@ -128,7 +128,7 @@ fn main() {
         } else {
             print_feed_table(iter)
         }*/
-        println!("No valid aurguments\n\nDo {} or {} for more information on usage", "--help".green().bold(), "-h".green().bold());
+        println!("No valid aurguments\n\nDo {} or {} for more information on usage", "--help".blue().bold(), "-h".blue().bold());
     }
 
 }
