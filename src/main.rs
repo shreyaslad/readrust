@@ -1,7 +1,9 @@
 extern crate clap;
+extern crate colored;
 extern crate reqwest;
 extern crate serde;
 mod about;
+use colored::*;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde_json;
@@ -126,7 +128,7 @@ fn main() {
         } else {
             print_feed_table(iter)
         }*/
-        println!("No valid aurguments");
+        println!("No valid aurguments\n\nDo {} or {} for more information on usage", "--help".green().bold(), "-h".green().bold());
     }
 
 }
