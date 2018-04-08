@@ -48,6 +48,22 @@ fn print_feed_table2<'feed2, I: Iterator<Item = &'feed2 FeedItem>>(items: I) {
     table.printstd();
 }
 
+fn print_feed_table3<'feed3, I: Iterator<Item = &'feed3 FeedItem>>(items: I) {
+    let mut table = prettytable::Table::new();
+
+    table.add_row(row!["Title".red().bold(), "Author".red().bold(), "Link".red().bold()]);
+
+    for item in items {
+        let title = if item.title.len() >= 50 {
+            &item.title[0..49]
+        } else {
+            &item.title
+        };
+    }
+
+    table.printstd();
+}
+
 #[derive(Debug, Deserialize, Serialize)]
 struct Author {
     name: String,
@@ -77,6 +93,7 @@ struct Feed {
 
 pub static URL: &str = "http://readrust.net/rust2018/feed.json";
 pub static URL2: &str = "https://readrust.net/devops-and-deployment/feed.json";
+pub static URL3: &str = "https://readrust.net/performance/feed.json";
 
 use clap::App;
 
@@ -85,18 +102,19 @@ fn main() {
         .version("1.0.1-beta.2")
         .author("Shreyas Lad <shadowtemplates@gmail.com>")
         .about("Reads readrust.net")
-        .args_from_usage("-n, --number=[NUMBER] 'Only print the NUMBER most recent posts'
-                          -c, --count           'Show the count of posts'
+        .args_from_usage("-c, --count           'Show the count of posts'
                           -a, --about           'About this project'
                           -d, --devops          'Feed from Devops'
                           -r, --rust2018        'Feed from Rust2018'
-                          -ntwo, --numbertwo        'Prints the number of devops posts'");
+                          -p, --performance     'Feed from Performance'");
     
         let matches = app.get_matches();
 
     let feed = get_feed();
 
-    let feed2 = get_another_feed();
+    let feed2 = devops_feed();
+
+    let feed3 = performance_feed();
 
     if matches.is_present("count") {
         print_count1(&feed);
@@ -121,7 +139,17 @@ fn main() {
         } else {
             print_feed_table(iter)
         }
-    } else {
+    } else if matches.is_present("performance") {
+        let iter = feed3.items.iter();
+        if let Some(string) = matches.value_of("number") {
+            let number = string.parse().unwrap();
+            print_feed_table3(iter.take(number))
+        } else {
+            print_feed_table3(iter)
+        }
+    } 
+    
+    else {
         /*let iter = feed.items.iter();
 
         if let Some(string) = matches.value_of("number") {
@@ -135,7 +163,22 @@ fn main() {
 
 }
 
-fn get_another_feed() -> Feed {
+// Function for Rust2018 feed
+fn get_feed() -> Feed {
+    let client = reqwest::Client::new();
+    let mut request = client.get(URL);
+
+    let mut resp = request.send().unwrap();
+
+    assert!(resp.status().is_success());
+
+    let json = resp.text().unwrap();
+
+    serde_json::from_str(&json).unwrap()
+}
+
+// Function for DevOps feed
+fn devops_feed() -> Feed {
     let client = reqwest::Client::new();
     let mut request = client.get(URL2);
 
@@ -148,9 +191,9 @@ fn get_another_feed() -> Feed {
     serde_json::from_str(&json).unwrap()
 }
 
-fn get_feed() -> Feed {
+fn performance_feed() -> Feed {
     let client = reqwest::Client::new();
-    let mut request = client.get(URL);
+    let mut request = client.get(URL3);
 
     let mut resp = request.send().unwrap();
 
