@@ -3,11 +3,7 @@
 
 A simple command line tool written in Rust to get articles from https://readrust.net
 
-  
-
 [![Build Status](https://travis-ci.org/PenetratingShot/readrust.svg?branch=master)](https://travis-ci.org/PenetratingShot/readrust)
-
-  
 
 ## General Info
 
@@ -29,12 +25,12 @@ A simple command line tool written in Rust to get articles from https://readrust
   
 <dl>
 	<dt><b>2. Navigate to the directory</b></dt>
-	 <dd>Go to the path `./target/release/readrust`</dd>
+	 <dd>Go to the path <em>./target/release/readrust<em></dd>
 </dl>
   
 <dl>
 	<dt><b>3. Run the script.</b></dt>
-	<dd>Double click on the file and select you command prompt as the application to open it. Once it says `[Process Completed]`, you may close the tab.</dd>
+	<dd>Double click on the file and select you command prompt as the application to open it. Once it says <em>[Process Completed]</em>, you may close the tab.</dd>
 </dl>
 
 <dl>
