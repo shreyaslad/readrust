@@ -101,7 +101,7 @@ use clap::App;
 
 fn main() {
     let app = App::new("readrust")
-        .version("1.0.1-beta.2")
+        .version("1.0.2-beta.3")
         .author("Shreyas Lad <shadowtemplates@gmail.com>")
         .about("Reads readrust.net")
         .args_from_usage("-c, --count           'Show the count of posts'
@@ -111,7 +111,6 @@ fn main() {
                           -p, --performance     'Feed from Performance'");
     
         let matches = app.get_matches();
-
     let feed = get_feed();
 
     let feed2 = devops_feed();
@@ -119,8 +118,10 @@ fn main() {
     let feed3 = performance_feed();
 
     if matches.is_present("count") {
+        println!("{}\n\n", "The count of posts under each topic".red().bold());
         print_count1(&feed);
         print_count2(&feed2);
+        print_count3(&feed3);
     } else if matches.is_present("about") {
         about::about();
     } else if matches.is_present("devops") {
@@ -160,7 +161,7 @@ fn main() {
         } else {
             print_feed_table(iter)
         }*/
-        println!("No valid aurguments\n\nDo {} or {} for more information on usage", "--help".blue().bold(), "-h".blue().bold());
+        println!("No valid aurguments.\n\nDo {} or {} for more information on usage", "--help".blue().bold(), "-h".blue().bold());
     }
 
 }
@@ -212,4 +213,8 @@ fn print_count1(feed: &Feed) {
 
 fn print_count2(feed2: &Feed) {
     println!("Posts for DevOps and Deployment: {}", feed2.items.len());
+}
+
+fn print_count3(feed3: &Feed) {
+    println!("Posts for Performance: {}", feed3.items.len());
 }
