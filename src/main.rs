@@ -59,6 +59,8 @@ fn print_feed_table3<'feed3, I: Iterator<Item = &'feed3 FeedItem>>(items: I) {
         } else {
             &item.title
         };
+
+        table.add_row(row![title, item.author.name, item.url]);
     }
 
     table.printstd();
