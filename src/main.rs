@@ -106,7 +106,7 @@ fn main() {
         .about("Reads readrust.net")
         .args_from_usage("-c, --count           'Show the count of posts'
                           -a, --about           'About this project'
-                          -d, --devops          'Feed from Devops'
+                          -d, --devops          'Feed from Devops and Deployment'
                           -r, --rust2018        'Feed from Rust2018'
                           -p, --performance     'Feed from Performance'");
     
