@@ -66,7 +66,7 @@ fn print_feed_table3<'feed3, I: Iterator<Item = &'feed3 FeedItem>>(items: I) {
     table.printstd();
 }
 
-fn print_feed_table4<'feed4, Iterator<Item = &'feed4 FeedItem>>(items: I) {
+fn print_feed_table4<'feed4, I: Iterator<Item = &'feed4 FeedItem>>(items: I) {
  let mut table = prettytable::Table::new();
     
     table.add_row(row!["Title".red.bold(), "Author".red().bold(), "Link".red().bold()]);
