@@ -1,6 +1,6 @@
 [package]
 name = "readrust"
-version = "1.0.2-beta.3"
+version = "1.0.2-beta.7"
 authors = ["Shreyas Lad <shadowtemplates@gmail.com>"]
 
 [dependencies]
