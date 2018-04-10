@@ -66,6 +66,24 @@ fn print_feed_table3<'feed3, I: Iterator<Item = &'feed3 FeedItem>>(items: I) {
     table.printstd();
 }
 
+fn print_feed_table4<'feed4, Iterator<Item = &'feed4 FeedItem>>(items: I) {
+ let mut table = prettytable::Table::new();
+    
+    table.add_row(row!["Title".red.bold(), "Author".red().bold(), "Link".red().bold()]);
+    
+    for item in items {
+     let title = if item.title.len() >= 50 {
+         &item.title[0..49]
+        } else {
+         &item.title   
+        };
+        
+        table.add_row(row![title, item.author.name, item.url]);
+    }
+    
+    table.printstd();
+}
+
 #[derive(Debug, Deserialize, Serialize)]
 struct Author {
     name: String,
@@ -96,19 +114,21 @@ struct Feed {
 pub static URL: &str = "http://readrust.net/rust2018/feed.json";
 pub static URL2: &str = "https://readrust.net/devops-and-deployment/feed.json";
 pub static URL3: &str = "https://readrust.net/performance/feed.json";
+pub static URL4: &str = "https://readrust.net/getting-started/feed.json";
 
 use clap::App;
 
 fn main() {
     let app = App::new("readrust")
-        .version("1.0.2-beta.3")
+        .version("1.0.2-beta.7")
         .author("Shreyas Lad <shadowtemplates@gmail.com>")
         .about("Reads readrust.net")
         .args_from_usage("-c, --count           'Show the count of posts'
                           -a, --about           'About this project'
                           -d, --devops          'Feed from Devops and Deployment'
                           -r, --rust2018        'Feed from Rust2018'
-                          -p, --performance     'Feed from Performance'");
+                          -p, --performance     'Feed from Performance'
+                          -g, --getting-started 'Feed from Getting Started'");
     
         let matches = app.get_matches();
     let feed = get_feed();
@@ -116,12 +136,15 @@ fn main() {
     let feed2 = devops_feed();
 
     let feed3 = performance_feed();
+    
+    let feed4 = getting_started_feed();
 
     if matches.is_present("count") {
         println!("{}\n\n", "The count of posts under each topic".red().bold());
         print_count1(&feed);
         print_count2(&feed2);
         print_count3(&feed3);
+        print_count4(&feed4);
     } else if matches.is_present("about") {
         about::about();
     } else if matches.is_present("devops") {
@@ -142,7 +165,18 @@ fn main() {
         } else {
             print_feed_table(iter)
         }
-    } else if matches.is_present("performance") {
+    } else if matches.is_present("getting-started") {
+     let iter = feed.items.iter();
+        
+       if let Some(string) = matches.calue_of("number") {
+         let number = string.parse().unwrap();
+           print_feed_table4(iter.take(number))
+        } else {
+         print_feed_table4(iter)   
+        }
+    }
+    
+    else if matches.is_present("performance") {
         let iter = feed3.items.iter();
         if let Some(string) = matches.value_of("number") {
             let number = string.parse().unwrap();
@@ -161,7 +195,8 @@ fn main() {
         } else {
             print_feed_table(iter)
         }*/
-        println!("No valid aurguments.\n\nDo {} or {} for more information on usage", "--help".blue().bold(), "-h".blue().bold());
+        println!("No valid aurguments.\n\nDo {} or {} for more information on usage\n\n", "$ readrust --help".blue().bold(), "$ readrust -h".blue().bold());
+        println!("To get started you can try the following commands: {}\n{}\n{}\n{}", "$ readrust --devops".magenta(), "$ readrust --rust2018".magenta(), "$ readrust --performance".magenta(), "$ readrust --getting-started".magenta());
     }
 
 }
@@ -207,6 +242,19 @@ fn performance_feed() -> Feed {
     serde_json::from_str(&json).unwrap()
 }
 
+fn getting_started_feed() -> Feed {
+ let client = reqwest::Client::new();
+    let mut request = client.get(URL4);
+    
+    let mut resp = request.send().unwrap();
+    
+    assert!(resp.status().is_success());
+    
+    let json = resp.text().unwrap();
+    
+    serde_json::from_str(&json).unwrap()
+}
+
 fn print_count1(feed: &Feed) {
     println!("Posts for Rust2018: {}", feed.items.len());
 }
@@ -217,4 +265,8 @@ fn print_count2(feed2: &Feed) {
 
 fn print_count3(feed3: &Feed) {
     println!("Posts for Performance: {}", feed3.items.len());
+}
+
+fn print_count4(feed4: &Feed) {
+ println!("Posts for Getting Started: {}", feed4.items.len());   
 }
