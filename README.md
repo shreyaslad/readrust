@@ -27,7 +27,7 @@ A simple command line tool written in Rust to get articles from https://readrust
     <dd>Go to the releases and <em><a href="">download</a></em> the zip file.</dd>
 <dl>
 	<dt><b>Step 2. Navigate to the directory</b></dt>
-	 <dd>Go to the path <em>./target/release/readrust<em></dd>
+	 <dd>Go to the path <em>./target/release/readrust</em></dd>
 </dl>
   
 <dl>
